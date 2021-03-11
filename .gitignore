@@ -10,3 +10,5 @@ output
 .psc-ide-port
 .purs-repl
 .spago
+.envrc
+.aws-sam

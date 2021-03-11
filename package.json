@@ -1,0 +1,37 @@
+{
+  "name": "purescript-lambda-examples",
+  "version": "1.0.0",
+  "description": "Example AWS Lambda Functions written in PureScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "spago test",
+    "build": "spago build",
+    "clean": "rm -rf .spago",
+    "package": "npm run build && npm run clean",
+    "postinstall": "spago install && npm run package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unisay/purescript-lambda-examples.git"
+  },
+  "keywords": [
+    "purescript",
+    "lambda",
+    "example"
+  ],
+  "author": "Yuriy Lazarev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unisay/purescript-lambda-examples/issues"
+  },
+  "homepage": "https://github.com/Unisay/purescript-lambda-examples#readme",
+  "dependencies": {
+    "aws-sdk": "^2.861.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

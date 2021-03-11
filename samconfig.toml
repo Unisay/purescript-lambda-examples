@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "purescript-lambda-examples"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1etj0gdn9nogv"
+s3_prefix = "purescript-lambda-examples"
+region = "eu-central-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
